@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests xmlns="urn:fdc:schunit.com:2020:v1">
+    <Scope/>
+
+    <Test>
+        <Success/>
+
+        <Order xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2"
+               xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+               xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+
+            <!-- Aggregate compontent containing child elements. -->
+            <cac:ValidityPeriod>
+                <cbc:StartDate/>
+                <cbc:EndDate/>
+            </cac:ValidityPeriod>
+        </Order>
+    </Test>
+
+    <Test>
+        <Trigger/>
+
+        <Order xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2"
+               xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+               xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+
+            <!-- Aggregate compontent without child elements. -->
+            <cac:ValidityPeriod/>
+        </Order>
+    </Test>
+</Tests>
