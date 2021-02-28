@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog
+    xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:oasis:names:tc:entity:xmlns:xml:catalog
+        http://www.oasis-open.org/committees/entity/release/1.1/catalog.xsd"
+    prefer="public">
+    <uri name="urn:fdc:schunit.com:2020:v1" uri="./schunit-v1.xsd" />
+    <uri name="http://purl.oclc.org/dsdl/schematron" uri="./iso-schematron.xsd"/>
+</catalog>

@@ -1,0 +1,8 @@
+{
+    "xml.catalogs": [
+        ".vscode/catalog/catalog.xml",
+    ],
+    "yaml.schemas": {
+        "https://schunit.com/schema/schunit": [".schunit.yaml"],
+    },
+}
